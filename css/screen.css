@@ -1,13 +1,21 @@
 @import "boilerplate.css";
 
-body {background: #FFF; color: #000; font: 14px verdana, sans-serif;  border-top: 10px solid #999; margin: 0;}
+body {background: #FFF; color: #000; font: 14px verdana, sans-serif;  border-top: 10px solid #965000; margin: 0; line-height: 1.6em; padding-top: 40px; padding-bottom: 40px}
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {font-family: Didot, Bodoni, 'Times New Roman', serif;}
-h1 { font-size: 30px; }
-h2 { font-size: 24px; }
+h1 {font-size: 30px; margin-top: 2em;}
+#content h1 {margin-bottom: 0;}
+h1 a, h2 a {color: #000;}
+h2 {font-size: 24px; margin-top: 0.25em; margin-bottom: 1em;}
+a {color:#AB7200;}
+ul {list-style-type: disc;}
 
 /* Layout */
 #wrapper { margin: 20px auto; width: 740px; position: relative;}
-#content { margin-left: 0; margin-right: 340px;}
+#content { margin-left: 0; margin-right: 280px;}
 #sidebar { width: 220px; float: right; position: fixed; top: 0px; left: 530px; position: absolute;}
+
+.post {border-bottom: 1px solid #965000;}
+.post_information {font-size: 11px; color: #7D2C15; margin-bottom: 2em;}
+.copyright {margin-top: 4em; font-size: 11px;}

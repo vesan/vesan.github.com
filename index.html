@@ -3,14 +3,10 @@ layout: default
 title: Vesa Vänskä
 ---
 
-{% for post in site.posts %}
-  <div class="post">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-
-    <div class="post_information">
-      Published at {{ post.date | date_to_string }}
+<div id="content">
+  {% for post in site.posts %}
+    <div class="post">
+      {{ post.content }}
     </div>
-    
-    {{ post.content }}
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>

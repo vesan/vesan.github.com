@@ -4,10 +4,10 @@ title: Test post number 0
 topics: [programming, zero, jekyll]
 ---
 
-# {{ page.title }}
+# [{{ page.title }}]({{ page.url }})
 
 <div class="post_information">
-  Published at {{ page.date | date_to_string }}
+  {{ page.date | date_to_string | upcase }}
 </div>
 
 Testing code highlighting!
