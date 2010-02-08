@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Where did that SQL-query come from?"
+title: Where did that SQL-query come from?
 tags: [code, plugins, rails, rake, performance]
 ---
 
