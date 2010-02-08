@@ -3,12 +3,16 @@ layout: default
 title: Archive - Vesa Vänskä
 ---
 
-# Archive
+<div id="content">
 
-This is the complete blog post archive in reverse chronological order.
+<h1>Archive</h1>
 
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date_to_string }})</a></li>
-  {% endfor %}
-</ul>
+  <p>This is the complete blog post archive in reverse chronological order.</p>
+
+  <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date_to_string }})</a></li>
+    {% endfor %}
+  </ul>
+
+</div>
