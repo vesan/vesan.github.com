@@ -4,12 +4,6 @@ title: "6th at RailsRumble 2008"
 tags: [railsrumble, rails, achievements, projects]
 ---
 
-# [{{ page.title }}]({{ page.url }})
-
-<div class="post_information">
-  {{ page.date | date_to_string | upcase }}
-</div>
-
 We were number 6 in the RailsRumble 2008 competition. Our team consisted of me and my schoolmates Antti Salonen and Ville Ikonen. I was the Rails guy, Antti was the HTML, CSS and shininess guy, and Ville was the JavaScript guy.
 
 ![Screenshot of Dense, the slideshow app](/images/2008/dense-screenshot.png "Screenshot of Dense, the slideshow app")

@@ -2,9 +2,10 @@
 layout: default
 ---
 <div id="content" class="post">
-  <h1><a href="{{ post.url }}">{{ title }}</a></h1>
+  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
   <div class="post_information">
+    {{ page.date | date_to_string | upcase }}
   </div>
   
   {{ content }}

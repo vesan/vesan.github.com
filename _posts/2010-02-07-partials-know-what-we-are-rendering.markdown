@@ -4,12 +4,6 @@ title: "Rails tip: Partials know if you are rendering a collection or an object"
 tags: [code, tips, ruby, rails, partials]
 ---
 
-# [{{ page.title }}]({{ page.url }})
-
-<div class="post_information">
-  {{ page.date | date_to_string | upcase }}
-</div>
-
 When you render partial `thing`, variable `thing_counter` gets set. When you render it with an object `thing_counter` is set to zero (0).
 
 {% highlight ruby %}

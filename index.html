@@ -6,6 +6,12 @@ title: Vesa Vänskä
 <div id="content">
   {% for post in site.posts %}
     <div class="post">
+      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="post_information">
+        {{ post.date | date_to_string | upcase }}
+      </div>
+
       {{ post.content }}
     </div>
   {% endfor %}
