@@ -7,6 +7,11 @@
     <meta name="Developer" content="Vesa Vänskä" />
     <meta name="Author" content="Vesa Vänskä" />
     <title>{{ page.title }}</title>
+    <meta name="description" content="{% if page.description %}
+      {{ page.description }}
+    {% else %}
+      Blog of a 20-something Ruby developer living in Helsinki working for Idealist Digital.
+    {% endif %}" />
     <link href="http://feeds.feedburner.com/vesavanska" rel="alternate" title="Vesa Vänskä's feed" type="application/atom+xml" />
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
     <!-- syntax highlighting CSS -->

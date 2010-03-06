@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Archive - Vesa Vänskä
+description: Archive of vesavanska.com.
 ---
 
 <div id="content">
