@@ -19,3 +19,5 @@ ul {list-style-type: square;}
 .post {border-bottom: 1px solid #965000;}
 .post_information {font-size: 11px; color: #7D2C15; margin-bottom: 2em;}
 .copyright {margin-top: 4em; font-size: 11px;}
+
+#archive_link {display: block; margin-top: 2em;}
