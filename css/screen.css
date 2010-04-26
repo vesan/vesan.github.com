@@ -1,6 +1,7 @@
 @import "boilerplate.css";
 
 body {background: #FFF; color: #000; font: 14px verdana, sans-serif;  border-top: 10px solid #965000; margin: 0; line-height: 1.6em; padding-top: 40px; padding-bottom: 40px}
+sup a {padding: 0.5em;}
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {font-family: Didot, Bodoni, 'Times New Roman', serif;}
@@ -21,3 +22,7 @@ ul {list-style-type: square;}
 .copyright {margin-top: 4em; font-size: 11px;}
 
 #archive_link {display: block; margin-top: 2em;}
+
+#footnotediv {background: #fff; border: 1px solid #999; padding: 1em;}
+#footnotediv p {display: inline;}
+.footnotes ol li p {display: inline;}
