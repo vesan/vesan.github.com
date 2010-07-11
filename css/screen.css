@@ -26,3 +26,5 @@ ul {list-style-type: square;}
 #footnotediv {background: #fff; border: 1px solid #999; padding: 1em;}
 #footnotediv p {display: inline;}
 .footnotes ol li p {display: inline;}
+
+#disqus_thread {margin-top: 4em;}
