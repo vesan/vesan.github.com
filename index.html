@@ -15,7 +15,7 @@ title: Vesa Vänskä
       {{ post.content }}
 
       <p>
-        <a href="{{ post.url }}#disqus_thread">Comments</a>
+        <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a>
       </p>
     </div>
   {% endfor %}
