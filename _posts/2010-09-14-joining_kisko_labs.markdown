@@ -1,4 +1,8 @@
-## Joining Kisko Labs
+---
+layout: post
+title: Joining Kisko Labs
+tags: [idealist, kisko, work]
+---
 
 My second full week at [Kisko Labs](http://kiskolabs.com/) has started. I've joined them as a full-time employee and my first projects there are well under way. I'm really to happy to join this small team of talented people. Kisko isn't your traditional software shop renting "coding resources" to the highest bidder. Their goal is to help the client get their idea off the ground and into a profitable business. I relate to their core values and appreciate their getting things done mentality.
 
