@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rails Rumble 2010
+tags: [kisko, rails, competitions]
+---
+
+Rails Rumble 2010 was last weekend and our [2008 team](http://vesavanska.com/2008/6th-at-railsrumble-2008/) (Antti Salonen, Ville Ikonen and I) competed again. We built [Yarn It, an app for generating and sharing knitting patterns](http://yarnit.r10.railsrumble.com/). It's multiuser and features a simple editor for pattern generation and a chat for communicating with your friends while creating the pattern together. 
+
+On the tech side this Rumble was quite an adventure. My main responsibility was the backend. We started building our app with [Faye ruby gem](http://faye.jcoglan.com/), but five hours before the deadline we had problems we could not circumvent and switched to [Pusher](http://pusherapp.com/), which meant substantial rewrite resulting as pretty ugly code in some places. Faye was really nice, but probably due to inexperience with using it we couldn't get it to work reliably. Pusher is not perfec for our use case, but it seems to work reliably and overall seems like a really nice service.
+
+I also got my first experience with [Redis](http://redis.io/) with this project. Redis is an fast, persistent key-value store. We use it to store data for ongoing knitting sittings. My knowledge of key-value stores is limited, but using Redis was a blast and I'm going to use it in the future when there is need for key-value store with more intelligent data types and functions for querying those.
+
+I want to thank Antti and Ville for being awesome team partners and my employer Kisko Labs for letting us compete at the Kisko Rails Rumble HQ.
+
