@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Which Ruby library to choose?
-tags: [ruby, rails, tips libraries, gems]
+tags: [ruby, rails, tips, libraries, gems]
 ---
 
 When I need a Ruby library I head to [GitHub](http://github.com/) and use their search to see if there is a library for my need.
