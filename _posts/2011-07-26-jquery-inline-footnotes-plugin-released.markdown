@@ -12,4 +12,4 @@ This is the first release (1.0) of this simple plugin. It's implemented with Cof
 
 Enjoy!
 
-[^1]: This content can be anywhere on the page, usually in the bottom.
+[^1]: This content can be anywhere on the page, usually in the bottom of the post.
