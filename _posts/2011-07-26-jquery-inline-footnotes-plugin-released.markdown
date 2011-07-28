@@ -4,7 +4,7 @@ title: jQuery Inline Footnotes plugin released
 tags: [programming, javascript, jquery, open-source, plugin]
 ---
 
-jQuery Inline Footnotes provides inline footnotes like this [^hover].
+jQuery Inline Footnotes provides inline footnotes like this [^1].
 
 This is the first release (1.0) of this simple plugin. It's implemented with CoffeeScript as a jQuery plugin.
 
@@ -12,4 +12,4 @@ This is the first release (1.0) of this simple plugin. It's implemented with Cof
 
 Enjoy!
 
-[^hover]: This content can be anywhere on the page, usually in the bottom.
+[^1]: This content can be anywhere on the page, usually in the bottom.
