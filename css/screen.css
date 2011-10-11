@@ -1,6 +1,6 @@
 @import "boilerplate.css";
 
-body {background: #FFF; color: #000; font: 14px verdana, sans-serif;  border-top: 10px solid #965000; margin: 0; line-height: 1.6em; padding-top: 40px; padding-bottom: 40px}
+body {background: #FFF; color: #000; font: 14px verdana, sans-serif;  border-top: 10px solid #965000; margin: 0; line-height: 1.6em; padding-top: 40px; padding-bottom: 40px;}
 sup a {padding: 0.5em;}
 
 /* Typography */
@@ -16,7 +16,7 @@ hr {border-style: none; height: 1px; background: #965000;}
 /* Layout */
 #wrapper { margin: 20px auto; width: 740px; position: relative;}
 #content { margin-left: 0; margin-right: 280px;}
-#sidebar { width: 220px; float: right; position: fixed; top: 0px; left: 530px; position: absolute;}
+#sidebar { width: 220px; float: right; top: 0px; left: 530px; position: absolute;}
 
 .post {border-bottom: 1px solid #965000;}
 .post_information {font-size: 11px; color: #7D2C15; margin-bottom: 2em;}
@@ -41,5 +41,34 @@ hr {border-style: none; height: 1px; background: #965000;}
   -moz-box-shadow: 0px 0px 5px #888;
   -webkit-box-shadow: 0px 0px 5px #888;
   box-shadow: 0px 0px 5px #888;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    border-top-width: 0px;
+  }
+
+	#wrapper {
+		width: 436px;
+		padding: 0 22px;
+	}
+
+  #sidebar {
+    width: 100%;
+    float: none;
+    position: static;
+  }
+
+  #sidebar .banner {
+    display: none;
+  }
+
+  #content {
+    margin-right: 0;
+  }
+
+  .post img {
+    max-width: 430px;
+  }
 }
 

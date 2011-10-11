@@ -3,7 +3,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="Developer" content="Vesa Vänskä" />
     <meta name="Author" content="Vesa Vänskä" />
     <title>{{ page.title }}</title>
@@ -22,10 +23,6 @@
   
   <body id="page">
     <div id="wrapper">
-      {{ content }}
-      
-      <p class="copyright">Copyright © 2009–2010 Vesa Vänskä</p>
-      
       <div id="sidebar">
         <h2><a href="/">Vesa Vänskä</a></h2>
         
@@ -45,10 +42,14 @@
           <li><a href="http://www.linkedin.com/in/vesavanska">LinkedIn</a></li>
         </ul>
 
-        <div>
+        <div class="banner">
           <a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function' title='JavaScript JS Documentation: JS Function prototype, JavaScript Function prototype, JS Function .prototype, JavaScript Function .prototype'><img src='http://static.jsconf.us/promotejshs.png' height='150' width='180' alt='JavaScript JS Documentation: JS Function prototype, JavaScript Function prototype, JS Function .prototype, JavaScript Function .prototype'/></a>
         </div>
       </div>
+
+      {{ content }}
+
+      <p class="copyright">Copyright © 2009–2010 Vesa Vänskä</p>
     </div>
 
     <script type="text/javascript">
