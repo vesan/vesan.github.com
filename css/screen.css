@@ -19,6 +19,11 @@ hr {border-style: none; height: 1px; background: #965000;}
 #sidebar { width: 220px; float: right; top: 0px; left: 530px; position: absolute;}
 
 .post {border-bottom: 1px solid #965000;}
+.post img {
+  margin: 1em auto;
+  display: block;
+  max-width: 100%;
+}
 .post_information {font-size: 11px; color: #7D2C15; margin-bottom: 2em;}
 .copyright {margin-top: 4em; font-size: 11px;}
 
@@ -66,9 +71,4 @@ hr {border-style: none; height: 1px; background: #965000;}
   #content {
     margin-right: 0;
   }
-
-  .post img {
-    max-width: 430px;
-  }
 }
-
