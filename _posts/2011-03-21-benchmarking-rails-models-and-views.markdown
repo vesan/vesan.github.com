@@ -42,6 +42,6 @@ The time measurements in seconds are in parentheses. In this case we can see tha
 For benchmarking view code Rails provides `benchmark` method. It works the same way as the model equivalent taking a block and outputting results to the log file. Simple example in Haml:
 
 {% highlight haml %}
-- benchmark "Generating chart"
+- benchmark "Generating chart" do
   = generate_chart(data)
 {% endhighlight %}
