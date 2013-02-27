@@ -18,6 +18,13 @@ hr {border-style: none; height: 1px; background: #965000;}
 #content { margin-left: 0; margin-right: 280px;}
 #sidebar { width: 220px; float: right; top: 0px; left: 530px; position: absolute;}
 
+.banner {
+  margin-bottom: 1.5em;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
 .post {border-bottom: 1px solid #965000;}
 .post img {
   margin: 1em auto;
