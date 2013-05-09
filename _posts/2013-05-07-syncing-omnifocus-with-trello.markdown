@@ -4,7 +4,7 @@ title: Syncing OmniFocus with Trello
 tags: [trello, omnifocus, workflow, open-source]
 ---
 
-We have started using Trello for organizing project at [Kisko Labs](http://kiskolabs.com) and to follow my [Pivotal Tracker to OmniFocus](http://vesavanska.com/2012/pivotal-tracker-integration-for-omnifocus/) adapter I created a similar for Trello.
+We have started using Trello for organizing a project at [Kisko Labs](http://kiskolabs.com) and to follow my [Pivotal Tracker to OmniFocus](http://vesavanska.com/2012/pivotal-tracker-integration-for-omnifocus/) adapter I created a similar for Trello.
 
 You can specify which lists of cards are considered done so that moving a card to a "Done" list will mark them done also in OmniFocus when syncing.
 
