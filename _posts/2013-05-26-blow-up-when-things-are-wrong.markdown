@@ -8,4 +8,4 @@ I gave a presentation about the interplay of validations and callbacks when pers
 
 Slides are available at [Speakerdeck](https://speakerdeck.com/vesan/blow-up-when-things-are-wrong) and embedded below.
 
-<script async class="speakerdeck-embed" data-id="a228d5b09eba013076c646310b996896" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="a228d5b09eba013076c646310b996896" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"> </script>
