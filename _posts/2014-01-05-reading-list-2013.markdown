@@ -1,0 +1,73 @@
+---
+layout: post
+title: Reading list 2013
+tags: [reading, books]
+---
+
+2013 was a good reading year for me and I thought I'd share the books that influenced me the most during the year.
+
+Overall I read 55 books (of which 10 were comic books). I use [GoodReads](https://www.goodreads.com/) to track my reading so you can view [my full reading list there](https://www.goodreads.com/review/list/3603997-vesa-v-nsk?read_at=2013&view=table) and even follow my "reviews" if you are really interested.
+
+## The books
+
+**So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love** by Cal Newport
+
+[![So Good They Can't Ignore You](/images/2014/so-good-they-cant-ignore-you.jpg)](http://www.amazon.com/gp/product/1455509124/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455509124&linkCode=as2&tag=vesan-20)
+
+The title sounds rather self-helpish but reading the author's [Study Hacks](http://calnewport.com/blog/) blog made me interested. Newport has been studying remarkable careers and the book formulates rules based on the that.
+
+Perhaps the most controversial bit is the idea that you should not follow your passion but start learning valuable skills. Newport says that passion is dangerous because having passion is so rare that it being a precursor for a great career is depressing and confusing. After you have advanced skills and knowledge on an area the passion will come automatically. Waiting for the passion to appear is not an effective strategy. Working right trumps finding the right work.
+
+Book offers a models for improving your skills, steering your work choices to maximize control, and on formulating an underlying mission for your career. I had bunch of light bulb moments with this book and would recommend it to anyone pondering where she is going next with her work life.
+
+**Buddhism Plain and Simple** by Steve Hagen
+
+[![Buddhism Plain and Simple](/images/2014/buddhism_plain_and_simple.jpg)](http://www.amazon.com/gp/product/0767903323/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0767903323&linkCode=as2&tag=vesan-20)
+
+I've been reading some Buddhist material during the past few years and I found this book to be great summary of many Buddhist ideas. It is stripped from any extra layers and presents the ideas in a clear way. I would recommend it to people who are interested in Buddhism on all knowledge levels of the subject.
+
+**Surely You're Joking, Mr. Feynman!** by Richard P. Feynman
+
+[![Surely You're Joking, Mr. Feynman!](/images/2014/surely_you_are_joking.jpg)](http://www.amazon.com/gp/product/B003V1WXKU/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V1WXKU&linkCode=as2&tag=vesan-20)
+
+Great stories from one of my favorite scientist. I've watched videos and read stories about Feynman earlier but this was the first book I read about him. I also read the second book What Do You Care What Other People Think? but didn't enjoy it as much because it was more fragmented collection of random events from his life.
+
+**Design Is a Job** by Mike Monteiro
+
+[![Design Is a Job](/images/2014/design_is_a_job.jpg)](http://www.abookapart.com/products/design-is-a-job)
+
+Mike Montero has a unique speaking and writing voice which I enjoy. Book is about his learnings from running his design consultancy Mule Design. Book has good points to be applied on my own work, especially on client relationships. I would recommend it to anyone running a business that serves clients with professional services.
+
+**Thinking Fast and Slow** by Daniel Kahneman
+
+[![Thinking Fast and Slow](/images/2014/Thinking,_Fast_and_Slow.jpg)](http://www.amazon.com/gp/product/0374533555/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0374533555&linkCode=as2&tag=vesan-20)
+
+The book is a summary of research done by the author on the area of cognitive biases, his work on [prospect theory](http://en.wikipedia.org/wiki/Prospect_theory) and on happiness. Underlying idea of most of Kahneman's research is based on separation of two modes of thinking: faster, intuitive system and slower, logical system. He goes through how the systems work in unison and what kind of behavioral patterns emerge from that.
+
+The book is a bit long to my taste but it is easy to follow and I think knowing about the biases of our own thinking has is beneficial to everyone.
+
+## Comics
+
+**Fok_It by Joonas Rinta-Kanto (books 1-4)**
+
+[![Fok_It 1](/images/2014/fokit1-albumi.jpg)](http://www.kreegah.net/index.php?_a=viewCat&catId=13)
+
+Only available in Finnish. I enjoyed the whole available catalogue of Fok\_It albums. It is just my kind of humour.
+
+**Habibi by Craig Thompson**
+
+[![Habibi](/images/2014/Habibi.jpg)](http://www.amazon.com/gp/product/0375424148/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0375424148&linkCode=as2&tag=vesan-20)
+
+A love story set in Islamic world. The visual design is really great and with over 600 pages you get a lot to see. Anyone who enjoys great illustration and graphical storytelling should grab this one.
+
+## Extra pick
+
+**DJ-kirja by Matti Nives & Iina Esko**
+
+[![DJ-kirja](/images/2014/dj_kirja.jpg)](https://www.facebook.com/djkirja)
+
+I actually finished reading this on 2014 but I'll include it anyway. This one is also only available in Finnish. The book includes essays about DJ culture, interviews of DJ's and a section on club flyers from Finnish point of view. As a music nerd I really enjoyed all the view points and stories from familiar faces.
+
+- - -
+
+Next year I'm going to aim for 50 read books and try to start a habit of writing notes or mini-reviews of the books I read. It takes some work but in the long run you get a quite nice library of good notes you can read to remind you on the important points. For example checkout out [Derek Sivers' book notes](http://sivers.org/book) with short summaries and longer notes.
