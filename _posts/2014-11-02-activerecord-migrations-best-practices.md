@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ActiveRecord migration best practices
+title: ActiveRecord migrations best practices
 tags: [ruby, rails, programming, activerecord, database]
 ---
 
