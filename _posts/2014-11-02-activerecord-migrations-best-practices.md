@@ -8,7 +8,7 @@ There are certain guidelines I follow when writing migrations using the ActiveRe
 
 Here is an example migration class that follows all the guidelines reviewed in this post:
 
-```ruby
+{% highlight ruby %}
 class AddAreaToPlots < ActiveRecord::Migration
   class Plot < ActiveRecord::Base; end
 
@@ -25,7 +25,7 @@ class AddAreaToPlots < ActiveRecord::Migration
     remove_column :plots, :area
   end
 end
-```
+{% endhighlight %}
 
 ## Redefine ActiveRecord classes
 
@@ -59,6 +59,7 @@ When the migration are run by ActiveRecord, it executes the "up" version of the 
 
 If you modify your data within the `change` method, ActiveRecord will run that code on both migration and rollback which is probably not what is wanted. Here is an example:
 
+{% highlight ruby %}
 class AddAreaToPlots < ActiveRecord::Migration
   class Plot < ActiveRecord::Base; end
 
@@ -71,6 +72,7 @@ class AddAreaToPlots < ActiveRecord::Migration
     end
   end
 end
+{% endhighlight %}
 
 On rollback the migration would first remove the column and then try to populate the column which would of course fail due to the missing column breaking the rollback.
 
