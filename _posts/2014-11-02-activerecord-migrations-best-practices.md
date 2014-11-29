@@ -81,3 +81,11 @@ On rollback the migration would first remove the column and then try to populate
 In addition to the following these guideline it doesn't hurt to understand how the ActiveRecord migrations work. Read the [official Active Record Migrations guide](http://guides.rubyonrails.org/migrations.html) to get more information.
 
 Do you have any best practices you follow to make your migrations better? I'd be interested hear about those in the comments.
+
+## Addition: Migrations should not contain seed data
+
+Seed data refers to the initial data the database must have for the application to function correctly at all. Rails provides a [mechanism for populating the database with seed data] which should be used. Migrations are meant only to provide the structure of the database, not the contents.
+
+If migrations are used for seed data, there is a chance that a database is created without the seed data. When the incorrect migrations get older and a new database is bootstrapped using `rake db:schema:load` it uses the `db/schema.rb` file to get the right structure, but the data from the migrations won't be created in the database.
+
+Thanks for [Christian Hellsten](https://github.com/christianhellsten) for the addition!
