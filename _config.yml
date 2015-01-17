@@ -1,4 +1,7 @@
-pygments: true
+highlighter: true
 permalink: /:year/:title
 url: http://vesavanska.com
 markdown: rdiscount
+rdiscount:
+  extensions:
+    - footnotes
