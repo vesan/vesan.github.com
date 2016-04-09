@@ -10,10 +10,10 @@ You can specify which lists of cards are considered done so that moving a card t
 
 To start using it, simply install the gem and start sync:
 
-{% highlight sh %}
+```sh
 $ gem install omnifocus-trello
 $ of sync
-{% endhighlight %}
+```
 
 On the first run the sync will create `~/.omnifocus-trello.yml` file. Follow the instructions in the file to get a Trello access token. After completing the instructions and filling the needed information, just re-run `of sync` and it will do the first sync. After that you can run `of sync` any time and it will update the OmniFocus data.
 

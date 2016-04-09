@@ -8,7 +8,7 @@ I have released that many people working with Ruby on Rails are not aware that i
 
 Using both classes is simple. Here is an example of using `MessageVerifier`:
 
-{% highlight ruby %}
+```ruby
 verifier = ActiveSupport::MessageVerifier.new('your-secret')
 message = "String that is prevented from tampering."
 # Sign the message...
@@ -18,13 +18,13 @@ verified = verifier.verify(signed_message)
 
 # Verified message equals the original message
 verified == message #=> true
-{% endhighlight %}
+```
 
 If the string is tampered `#verify` will raise `ActiveSupport::MessageVerifier::InvalidSignature` exception.
 
 `MessageEncryptor` works in similar way:
 
-{% highlight ruby %}
+```ruby
 salt  = SecureRandom.random_bytes(64)
 key   = ActiveSupport::KeyGenerator.new('password').
           generate_key(salt)
@@ -38,7 +38,7 @@ decrypted = encryptor.decrypt_and_verify(encrypted_message)
 
 # Decrypted message equals the original message
 decrypted == message #=> true
-{% endhighlight %}
+```
 
 If the string is tampered `#decrypt_and_verify` will raise `ActiveSupport::MessageEncryptor::InvalidMessage` exception.
 

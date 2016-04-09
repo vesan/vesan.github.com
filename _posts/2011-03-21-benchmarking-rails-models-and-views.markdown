@@ -10,19 +10,19 @@ Ruby on Rails provides many helper methods and commands to help you benchmark an
 
 In models you can use `benchmark` method available as model class method. It takes a block and after running it outputs the elapsed time to the log file. Here's an example:
 
-{% highlight ruby %}
+```ruby
 def generate_large_things(users)
   users.each do |user|
     Thing.benchmark("Creating a thing") do
       thing = Thing.generate!(user)
     end
-    
+
     Thing.benchmark("Processing a thing") do
       thing.process!
     end
   end
 end
-{% endhighlight %}
+```
 
 After running the code you will see something like this in the log file:
 
@@ -41,7 +41,7 @@ The time measurements in seconds are in parentheses. In this case we can see tha
 
 For benchmarking view code Rails provides `benchmark` method. It works the same way as the model equivalent taking a block and outputting results to the log file. Simple example in Haml:
 
-{% highlight haml %}
+```haml
 - benchmark "Generating chart" do
   = generate_chart(data)
-{% endhighlight %}
+```

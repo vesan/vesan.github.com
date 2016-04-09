@@ -18,19 +18,19 @@ Fetching Travis data is easy using Ruby and the [official Travis Ruby library](h
 
 First install the Travis RubyGem:
 
-{% highlight bash %}
+```bash
 gem install travis
-{% endhighlight %}
+```
 
 Then login to Travis using it:
 
-{% highlight bash %}
+```bash
 travis login --pro --auto
-{% endhighlight %}
+```
 
 Here is the Ruby file for fetching the data:
 
-{% highlight ruby %}
+```ruby
 require 'travis/pro/auto_login'
 
 repo_name = "your-organization/your-project"
@@ -45,13 +45,13 @@ File.open("stats.txt", "w") {|f|
     f.puts duration.join("\t")
   end
 }
-{% endhighlight %}
+```
 
 The program fetches all finished builds for a repository, gets the durations and writes those to a file stats.txt separated by tabs.
 
 To make the data a bit more readable for large projects, lets skip some data points to get to less than 100:
 
-{% highlight ruby %}
+```ruby
 require 'travis/pro/auto_login'
 
 repo_name = "your-organization/your-project"
@@ -71,7 +71,7 @@ File.open("stats.txt", "w") {|f|
     f.puts duration.join("\t")
   end
 }
-{% endhighlight %}
+```
 
 Now you can use your favorite charting tool to get something visual.
 

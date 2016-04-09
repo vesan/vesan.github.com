@@ -12,7 +12,7 @@ So I made working version of the rake tasks. Functionality is the same and becau
 
 Here is the code:
 
-{% highlight ruby %}
+```ruby
 require 'open-uri'
 
 namespace :query_trace do
@@ -45,4 +45,4 @@ namespace :query_trace do
     puts "QueryTrace plugin disabled. Must restart server to take effect."
   end
 end
-{% endhighlight %}
+```

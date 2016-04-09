@@ -10,9 +10,9 @@ I also wanted this ability for my Pivotal Tracker projects. So I wrote the neede
 
 To start using it, simply install the gem and start sync:
 
-{% highlight sh %}
+```sh
 $ gem install omnifocus-pivotaltracker
 $ of sync
-{% endhighlight %}
+```
 
 On the first run the sync will create `~/.omnifocus-pivotaltracker.yml` file. Edit it and fill your Pivotal Tracker name and token. After filling those, just re-run `of sync` and it will do the first sync. After that you can run `of sync` any time and it will update the OmniFocus data.
