@@ -90,7 +90,7 @@
   })(jQuery);
 
   $(function() {
-    $("[rel=footnote]").inlineFootnote({
+    $(".footnote").inlineFootnote({
       maximumBoxWidth: 400
     });
   });
