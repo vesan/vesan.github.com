@@ -1,3 +1,5 @@
 highlighter: 'rouge'
 permalink: /:year/:title
 url: http://vesavanska.com
+gems:
+  - jekyll-feed
