@@ -1,5 +1,10 @@
+title: Vesa Vänskä
+description: Blog of a thirty-something Ruby developer living in Helsinki working for Kisko Labs.
 highlighter: 'rouge'
+author: Vesa Vänskä
 permalink: /:year/:title
 url: http://vesavanska.com
 gems:
   - jekyll-feed
+feed:
+  path: atom.xml
