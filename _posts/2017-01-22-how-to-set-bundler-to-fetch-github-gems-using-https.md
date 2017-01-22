@@ -8,19 +8,19 @@ Fetching Github gems using HTTPS instead of git protocol is going to be the new 
 
 Configure Bundler to use HTTPS for GitHub sources:
 
-```ruby
+```sh
 bundle config --global github.https true
 ```
 
 And on Heroku (note the double underscore):
 
-```ruby
+```sh
 heroku config:set BUNDLE_GITHUB__HTTPS=true
 ```
 
 And on Travis (put it to your `.travis.yml` file):
 
-```ruby
+```yaml
 before_install:
-  - "bundle config --global github.https true"
+  - "bundle config --global github.https true"
 ```
