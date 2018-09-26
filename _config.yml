@@ -4,7 +4,7 @@ highlighter: 'rouge'
 author: Vesa Vänskä
 permalink: /:year/:title
 url: http://vesavanska.com
-gems:
+plugins:
   - jekyll-feed
 feed:
   path: atom.xml
