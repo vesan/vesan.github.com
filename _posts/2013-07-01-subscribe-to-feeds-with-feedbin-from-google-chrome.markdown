@@ -18,4 +18,4 @@ Google Reader is shutting down so I looked my choices and decided to go with [Fe
 
 Now you have Feedbin in your feed reader list and you can easily subscribe to feeds.
 
-\*\*Update 2022-09-24: Changed Feedbin domain from feedbin.me to feedbin.com.
+**Update 2022-09-24: Changed Feedbin domain from feedbin.me to feedbin.com.**
