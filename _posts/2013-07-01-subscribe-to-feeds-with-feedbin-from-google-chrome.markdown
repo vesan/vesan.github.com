@@ -12,8 +12,10 @@ Google Reader is shutting down so I looked my choices and decided to go with [Fe
 
 3. Click "Add…".
 
-4. Write a description and in the URL field write **https://feedbin.me/?subscribe=%s** ![Write description and URL](/images/2013/feedbin-2.png)
+4. Write a description and in the URL field write **https://feedbin.com/?subscribe=%s** ![Write description and URL](/images/2013/feedbin-2.png)
 
 5. Click "Save".
 
 Now you have Feedbin in your feed reader list and you can easily subscribe to feeds.
+
+\*\*Update 2022-09-24: Changed Feedbin domain from feedbin.me to feedbin.com.
