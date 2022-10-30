@@ -20,4 +20,4 @@ And video here:
 
 And slides here:
 
-<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/50c830a995c9499cb67440d2faf06cb9" title="From massive pull requests to trunk-based development in Ruby" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 315px;" data-ratio="1.7777777777777777"></iframe>
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/50c830a995c9499cb67440d2faf06cb9" title="From massive pull requests to trunk-based development in Ruby" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); border-radius: 6px; width: 560px; height: 315px;" data-ratio="1.7777777777777777"></iframe>

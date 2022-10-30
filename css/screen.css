@@ -161,3 +161,11 @@ hr {
     font-size: 18px;
   }
 }
+
+iframe[src*="youtube"],
+iframe[src*="speakerdeck"] {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
