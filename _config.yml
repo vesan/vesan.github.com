@@ -3,7 +3,7 @@ description: Blog of a thirty-something Ruby developer living in Helsinki workin
 highlighter: 'rouge'
 author: Vesa Vänskä
 permalink: /:year/:title
-url: http://vesavanska.com
+url: https://vesavanska.com
 plugins:
   - jekyll-feed
 feed:
