@@ -8,6 +8,7 @@
     <meta name="Developer" content="Vesa Vänskä" />
     <meta name="Author" content="Vesa Vänskä" />
     <title>{{ page.title }}</title>
+    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
     <meta name="description" content="{% if page.description %}
       {{ page.description }}
     {% else %}
